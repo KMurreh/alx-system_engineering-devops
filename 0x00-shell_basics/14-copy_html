@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name '*.html' -type f -newer ../ -exec cp -n {} ../ \n
+find . -maxdepth 1 -type f -name "*.html" -newer ../ -exec cp {} .. \;
