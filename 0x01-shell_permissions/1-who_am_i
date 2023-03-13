@@ -1,2 +1,2 @@
 #!/bin/bash
-# print the effective username of the current user to the console id -un
+echo who am i | awk "{print \$1}"' > print-username.sh
