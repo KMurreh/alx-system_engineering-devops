@@ -1,1 +1,2 @@
-#!/bin/bashchmod u+x hello
+#!/bin/bash
+echo 'chmod u+x hello'
