@@ -1,3 +1,2 @@
 #!/bin/bash
-sed 'y/Ac/Ze/' input.txt > output.txt
-
+echo "input" | tr 'Ac' 'Ze'
