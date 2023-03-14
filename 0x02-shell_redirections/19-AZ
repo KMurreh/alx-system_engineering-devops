@@ -1,2 +1,3 @@
 #!/bin/bash
-echo tr "A" "Z" | tr "c" "e"
+sed 'y/Ac/Ze/' input.txt > output.txt
+
