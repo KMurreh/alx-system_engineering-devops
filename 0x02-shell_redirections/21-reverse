@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'cat | rev' >> reverse_input.sh
+rev
