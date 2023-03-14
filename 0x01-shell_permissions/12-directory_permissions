@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "mkdir my_dir" > create_my_dir.sh "chmod 751 my_dir" >> create_my_dir.sh
+echo -e "mkdir my_dir\nchmod 751 my_dir" > create_my_dir.sh
